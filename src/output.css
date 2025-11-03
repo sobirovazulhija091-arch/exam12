@@ -8,6 +8,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-blue-50: oklch(97% 0.014 254.604);
+    --color-blue-400: oklch(70.7% 0.165 254.624);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-blue-900: oklch(37.9% 0.146 265.522);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -186,8 +188,23 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
   }
   .flex {
     display: flex;
@@ -201,6 +218,9 @@
   .h-\[0px\] {
     height: 0px;
   }
+  .h-\[2\] {
+    height: 2;
+  }
   .h-\[40px\] {
     height: 40px;
   }
@@ -209,6 +229,12 @@
   }
   .h-\[70px\] {
     height: 70px;
+  }
+  .h-\[270px\] {
+    height: 270px;
+  }
+  .h-\[500px\] {
+    height: 500px;
   }
   .h-\[550px\] {
     height: 550px;
@@ -234,6 +260,12 @@
   .h-\[1000px\] {
     height: 1000px;
   }
+  .w-\[2px\] {
+    width: 2px;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
   .w-\[60\%\] {
     width: 60%;
   }
@@ -242,6 +274,12 @@
   }
   .w-\[150px\] {
     width: 150px;
+  }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[265px\] {
+    width: 265px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -349,6 +387,12 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-blue-400 {
+    color: var(--color-blue-400);
+  }
+  .text-blue-700 {
+    color: var(--color-blue-700);
+  }
   .text-blue-900 {
     color: var(--color-blue-900);
   }
@@ -377,6 +421,11 @@
   .xs\:mt-5 {
     @media (width >= 500px) {
       margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .xs\:flex {
+    @media (width >= 500px) {
+      display: flex;
     }
   }
   .xs\:hidden {
