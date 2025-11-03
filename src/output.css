@@ -574,6 +574,26 @@
       margin-top: calc(var(--spacing) * 5);
     }
   }
+  .xs\:mt-\[30px\] {
+    @media (width >= 500px) {
+      margin-top: 30px;
+    }
+  }
+  .xs\:mt-\[200px\] {
+    @media (width >= 500px) {
+      margin-top: 200px;
+    }
+  }
+  .xs\:mt-\[650px\] {
+    @media (width >= 500px) {
+      margin-top: 650px;
+    }
+  }
+  .xs\:mt-\[700px\] {
+    @media (width >= 500px) {
+      margin-top: 700px;
+    }
+  }
   .xs\:flex {
     @media (width >= 500px) {
       display: flex;
@@ -672,6 +692,11 @@
   .xs\:gap-2 {
     @media (width >= 500px) {
       gap: calc(var(--spacing) * 2);
+    }
+  }
+  .xl\:mt-0 {
+    @media (width >= 800px) {
+      margin-top: calc(var(--spacing) * 0);
     }
   }
   .xl\:mt-10 {
