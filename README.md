@@ -1,8 +1,10 @@
 # 🏡 Landguru
 
-**Landguru** is a modern real-estate web platform designed to help users easily browse, list, and manage property listings.  
-Built with a clean, user-friendly interface inspired by the Landguru Figma design.
-
+**Use**
+- HTML
+- CSS
+- GIT/GITHUB
+- GITIGNORE
 ---
 
 ## 🚀 Features
@@ -18,7 +20,7 @@ Built with a clean, user-friendly interface inspired by the Landguru Figma desig
 
 ## 🛠️ Tech Stack
 
-| **Design** | [Figma Prototype](https://www.figma.com/design/CDiHtyHEBuwtt75K9McHnM/Landguru--?node-id=1-2) |
+| **Design** | [Figma](https://www.figma.com/design/CDiHtyHEBuwtt75K9McHnM/Landguru--?node-id=1-2) |
 
 ---
 
