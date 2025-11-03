@@ -1,16 +1,34 @@
-# page1:
-* **What i use in my project**
-1. html
-2. css
-3. node.js
-4. git 
-> **Most elemet i used**
-> - ***div***
-> - ***picture*** 
-> - ***paragraph*** 
-> - ***img*** 
-> - ***br*** 
-> - ***branchs***
-> - ***and pull to main branch***
-**Link**
-* **My picture** **_**[figma](https://www.figma.com/design/16bdlWFoZXXIpyyZmwy9JU/Logoipsum?node-id=1-2&t=UCL2IHJBKpvJ41gF-0)
+# 🏡 Landguru
+
+**Landguru** is a modern real-estate web platform designed to help users easily browse, list, and manage property listings.  
+Built with a clean, user-friendly interface inspired by the Landguru Figma design.
+
+---
+
+## 🚀 Features
+
+- 🏠 Browse property listings by location, price, and type  
+- 🧭 Interactive map integration for property locations  
+- 💬 Contact and inquiry form for buyers and agents  
+- 📱 Fully responsive layout for mobile and desktop  
+- ⚙️ Admin dashboard for managing listings (optional feature)  
+- 🌙 Light/Dark mode toggle (optional design feature)
+
+---
+
+## 🛠️ Tech Stack
+
+| **Design** | [Figma Prototype](https://www.figma.com/design/CDiHtyHEBuwtt75K9McHnM/Landguru--?node-id=1-2) |
+
+---
+
+## 🧩 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/<your-username>/landguru.git
+cd landguru
+npm install
+Start the development server:
+Push and open a Pull Request
