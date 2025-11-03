@@ -290,6 +290,9 @@
   .h-\[350px\] {
     height: 350px;
   }
+  .h-\[400px\] {
+    height: 400px;
+  }
   .h-\[402px\] {
     height: 402px;
   }
@@ -712,6 +715,11 @@
       height: 500px;
     }
   }
+  .xs\:h-\[800px\] {
+    @media (width >= 500px) {
+      height: 800px;
+    }
+  }
   .xs\:h-\[1000px\] {
     @media (width >= 500px) {
       height: 1000px;
@@ -765,6 +773,11 @@
   .xs\:w-\[4800px\] {
     @media (width >= 500px) {
       width: 4800px;
+    }
+  }
+  .xs\:flex-nowrap {
+    @media (width >= 500px) {
+      flex-wrap: nowrap;
     }
   }
   .xs\:flex-wrap {
@@ -860,6 +873,16 @@
   .xl\:flex-nowrap {
     @media (width >= 800px) {
       flex-wrap: nowrap;
+    }
+  }
+  .xl\:flex-wrap {
+    @media (width >= 800px) {
+      flex-wrap: wrap;
+    }
+  }
+  .xl\:justify-around {
+    @media (width >= 800px) {
+      justify-content: space-around;
     }
   }
   .xl\:justify-between {
