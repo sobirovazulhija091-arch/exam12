@@ -15,7 +15,6 @@
 - project can be used on both telephones and computers
 ---
 ## Installation
-Clone the repository and install dependencies:
 ```bash
 git init
 git add <filename> or git add .
